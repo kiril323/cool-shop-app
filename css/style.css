@@ -5,8 +5,16 @@
 }
 
 .logo {
+  font-size: 40px;
   font-family: var(--logo-font);
   color: var(--text-color-light);
+}
+
+.search-input {
+  width: 248px;
+  height: 44px;
+  border: 1px solid white;
+  border-radius: 4px;
 }
 
 .icon-search {
