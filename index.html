@@ -18,39 +18,43 @@
     <!-- Нижче має бути твій код 😀 -->
     <!-- Твій код повинен бути в межах блоку body -->
     <!-- <body> - це початок блоку, </body > - це кінець блоку -->
-    <header class="header">
+    <header class="header container">
       <!-- Тут в блоці header потрібно створити "шапку" сайту -->
 
       <!-- Іконка меню -->
-      <svg class="icon-menu">
-        <use href="./images/sprite.svg#icon-menu" />
-      </svg>
+      <div class="header-navigation">
+        <svg class="icon-menu">
+          <use href="./images/sprite.svg#icon-menu" />
+        </svg>
 
-      <h1 class="logo">Cool Shop</h1>
+        <h1 class="logo">Cool Shop</h1>
 
-      <form class="search-form">
-        <input class="search-input" type="text" placeholder="Я шукаю..." />
-        <button class="search-button" type="submit">
-          <!-- Іконка пошуку -->
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-      </form>
-
-      <div class="languarge-changer">
-        <button class="languarge-changer-button" type="button">EN</button>
-        <p>|</p>
-        <button class="languarge-changer-button" type="button">UA</button>
+        <form class="search-form">
+          <input class="search-input" type="text" placeholder="Я шукаю..." />
+          <button class="search-button" type="submit">
+            <!-- Іконка пошуку -->
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
       </div>
 
-      <!-- Іконка сердечко -->
-      <svg class="icon-favorite-light">
-        <use href="./images/sprite.svg#icon-favorite-light" />
-      </svg>
+      <div>
+        <div class="languarge-changer">
+          <button class="languarge-changer-button" type="button">EN</button>
+          <p>|</p>
+          <button class="languarge-changer-button" type="button">UA</button>
+        </div>
 
-      <!-- Іконка корзина -->
-      <svg class="icon-basket">
-        <use href="./images/sprite.svg#icon-basket" />
-      </svg>
+        <!-- Іконка сердечко -->
+        <svg class="icon-favorite-light">
+          <use href="./images/sprite.svg#icon-favorite-light" />
+        </svg>
+
+        <!-- Іконка корзина -->
+        <svg class="icon-basket">
+          <use href="./images/sprite.svg#icon-basket" />
+        </svg>
+      </div>
     </header>
     <main>
       <!-- Тут в блоці main потрібно розмістити основний контент сторінки -->
