@@ -1,18 +1,23 @@
 /* --------- HEADER ---------*/
-.header {
+.header,
+.header-navigation,
+.header-actions {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.header {
+  height: 72px;
+  justify-content: space-between;
   background: var(--header-gradient);
 }
 
 .header-navigation {
-  display: flex;
-  align-items: center;
-  column-gap: 20px;
+  column-gap: 92px;
 }
 
 .header-actions {
+  column-gap: 28px;
 }
 
 .icon-menu {
@@ -33,6 +38,7 @@
 .search-input {
   width: 248px;
   height: 44px;
+  padding-left: 24px;
   border: 1px solid white;
   border-radius: 4px;
   background-color: #eeeeee;
@@ -77,8 +83,18 @@
 
 /* --------- MAIN ---------*/
 /* --- Види товарів --- */
+.menu-list {
+  padding-top: 44px;
+  font-size: 24px;
+}
 
 /* --- Реклама --- */
+.advertising {
+  height: 252px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/images/tennis.jpg);
+}
 
 /* --- Популярні --- */
 .icon-favorite-dark {
