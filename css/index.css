@@ -61,3 +61,7 @@ body {
 .container {
   padding: 0 44px;
 }
+
+.bold {
+  font-weight: bold;
+}
